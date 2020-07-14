@@ -1,0 +1,29 @@
+{
+  "name": "abort-controller-polyfill",
+  "version": "0.0.1",
+  "description": "An AbortController Polyfill",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benlesh/abort-controller-polyfill.git"
+  },
+  "keywords": [
+    "AbortController",
+    "fetch",
+    "polyfill",
+    "AbortSignal"
+  ],
+  "author": "Ben Lesh <ben@benlesh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benlesh/abort-controller-polyfill/issues"
+  },
+  "homepage": "https://github.com/benlesh/abort-controller-polyfill#readme",
+  "dependencies": {
+    "event-target-polyfill": "0.0.1"
+  }
+}
