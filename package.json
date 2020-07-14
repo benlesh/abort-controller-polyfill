@@ -1,5 +1,5 @@
 {
-  "name": "abort-controller-polyfill",
+  "name": "yet-another-abortcontroller-polyfill",
   "version": "0.0.1",
   "description": "An AbortController Polyfill",
   "type": "module",
