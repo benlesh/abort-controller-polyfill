@@ -2,7 +2,6 @@
   "name": "yet-another-abortcontroller-polyfill",
   "version": "0.0.1",
   "description": "An AbortController Polyfill",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "node ./test.js"
@@ -24,6 +23,6 @@
   },
   "homepage": "https://github.com/benlesh/abort-controller-polyfill#readme",
   "dependencies": {
-    "event-target-polyfill": "0.0.1"
+    "event-target-polyfill": "0.0.2"
   }
 }

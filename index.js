@@ -1,4 +1,4 @@
-import 'event-target-polyfill';
+require("event-target-polyfill");
 
 const root =
   (typeof globalThis !== "undefined" && globalThis) ||
@@ -20,24 +20,24 @@ if (typeof root.AbortController === "undefined") {
     AbortSignal.prototype = Object.create(EventTarget.prototype);
     AbortSignal.prototype.constructor = AbortSignal;
 
-    Object.defineProperty(AbortSignal.prototype, 'onabort', {
-        get: function () {
-            return this._onabort;
-        },
-        set: function (callback) {
-            const existing = this._onabort;
-            if (existing) {
-                this.removeEventListener('abort', existing);
-            }
-            this._onabort = callback;
-            this.addEventListener('abort', callback);
+    Object.defineProperty(AbortSignal.prototype, "onabort", {
+      get: function () {
+        return this._onabort;
+      },
+      set: function (callback) {
+        const existing = this._onabort;
+        if (existing) {
+          this.removeEventListener("abort", existing);
         }
-    })
+        this._onabort = callback;
+        this.addEventListener("abort", callback);
+      },
+    });
 
     Object.defineProperty(AbortSignal.prototype, "aborted", {
       get: function () {
         return this._aborted;
-      }
+      },
     });
 
     return AbortSignal;
