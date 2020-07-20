@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/yet-another-abortcontroller-polyfill.svg)](https://badge.fury.io/js/yet-another-abortcontroller-polyfill)
+
 # abort-controller-polyfill
 
 A simple polyfill for abort controller with proper event handling.
