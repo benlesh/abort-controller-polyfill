@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/yet-another-abortcontroller-polyfill.svg)](https://badge.fury.io/js/yet-another-abortcontroller-polyfill)
+![Node.js CI](https://github.com/benlesh/abort-controller-polyfill/workflows/Node.js%20CI/badge.svg)
 
 # abort-controller-polyfill
 
