@@ -1,6 +1,6 @@
 {
   "name": "yet-another-abortcontroller-polyfill",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An AbortController Polyfill",
   "main": "index.js",
   "scripts": {
