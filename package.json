@@ -22,7 +22,7 @@
     "url": "https://github.com/benlesh/abort-controller-polyfill/issues"
   },
   "homepage": "https://github.com/benlesh/abort-controller-polyfill#readme",
-  "dependencies": {
+  "devDependencies": {
     "event-target-polyfill": "0.0.2"
   }
 }

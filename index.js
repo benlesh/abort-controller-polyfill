@@ -1,5 +1,3 @@
-require("event-target-polyfill");
-
 const root =
   (typeof globalThis !== "undefined" && globalThis) ||
   (typeof self !== "undefined" && self) ||

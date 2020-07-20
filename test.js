@@ -1,3 +1,4 @@
+require('event-target-polyfill');
 require("./index.js");
 
 {
