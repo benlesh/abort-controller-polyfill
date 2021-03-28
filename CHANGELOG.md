@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/benlesh/abort-controller-polyfill/compare/0.0.3...0.0.4) (2020-07-20)
+
+
+### Minor Update
+
+* Updated dev dependency to the newer version of `event-target-polyfill`. Still a dev-dependency, though.
+
 ## [0.0.3](https://github.com/benlesh/abort-controller-polyfill/compare/0.0.2...0.0.3) (2020-07-20)
 
 
