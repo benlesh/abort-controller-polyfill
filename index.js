@@ -38,6 +38,12 @@ if (typeof root.AbortController === "undefined") {
       },
     });
 
+    AbortSignal.prototype.throwIfAborted = function () {
+      if (this.aborted) {
+        throw new Error('AbortError');
+      }
+    };
+
     return AbortSignal;
   })();
 
